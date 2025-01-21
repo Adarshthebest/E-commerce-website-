@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">ShopStyle</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="product-container">
+        <div class="product-gallery">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Product Image" class="product-image">
+            <div class="thumbnail-container">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Thumbnail 1" class="thumbnail active">
+                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa" alt="Thumbnail 2" class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb" alt="Thumbnail 3" class="thumbnail">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <span class="product-category">Running Shoes</span>
+            <h1 class="product-title">Premium Sports Sneakers</h1>
+            <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(125 reviews)</span>
+            </div>
+            <p class="product-description">
+                Experience ultimate comfort with our premium sports sneakers. Featuring advanced cushioning 
+                technology, breathable mesh upper, and durable outsole for maximum performance and style.
+            </p>
+            <div class="product-price">
+                <span class="current-price">$129.99</span>
+                <span class="original-price">$159.99</span>
+                <span class="discount">-20%</span>
+            </div>
+            <div class="product-actions">
+                <div class="size-selector">
+                    <label>Select Size:</label>
+                    <select>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                    </select>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="related-products">
+        <h2>Related Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa" alt="Related Product 1">
+                <h3>Running Shoes</h3>
+                <p>$99.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb" alt="Related Product 2">
+                <h3>Training Shoes</h3>
+                <p>$89.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Related Product 3">
+                <h3>Sports Sneakers</h3>
+                <p>$119.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-container">
+            <div class="review-card">
+                <div class="reviewer">
+                    <span class="reviewer-name">John Doe</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <p>Great shoes! Very comfortable and perfect for running.</p>
+            </div>
+            <div class="review-card">
+                <div class="reviewer">
+                    <span class="reviewer-name">Jane Smith</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <p>Good quality and stylish design. Highly recommended!</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
